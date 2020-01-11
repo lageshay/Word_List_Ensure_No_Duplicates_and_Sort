@@ -1,0 +1,18 @@
+#Use input to request file name from user
+fname = input("Enter file name: ")
+#Open the file in read mode
+fhandle = open(fname,"r")
+#Created an empty list to add the words to
+lst = list()
+#Loop through each line in the text file, remove the new character, and split the words within the lines 
+for line in fhandle:
+    line = line.rstrip().split()
+#Loop to see if the current word exists in list 'lst', if it is does, continue with no action, if not, add it to the list
+    for words in line:
+        if words in lst:
+    	    continue
+        else:
+            lst.append(words)
+#Sort the list into alphabetical order
+lst.sort()
+print(lst)
