@@ -1,0 +1,2 @@
+# Word_List_Ensure_No_Duplicates_and_Sort
+Assignment: Open the file romeo.txt and read it line by line. For each line, split the line into a list of words using the split() method. For each word on each line, check to see if the word is already in the list and if not append it to the list. Sort and print the resulting words in alphabetical order. Data file: http://www.py4e.com/code3/romeo.txt. From 'Python for Everybody' University of Michigan course via Coursera.
